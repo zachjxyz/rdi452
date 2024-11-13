@@ -16,14 +16,9 @@ export default function Hero() {
   return (
     <Section>
       <Container>
-        <div className="flex flex-col items-center text-center">
-          <Button
-            asChild
-            className="not-prose mb-6 flex w-fit"
-            size="sm"
-            variant="outline"
-          >
-            <Link href="https://9d8.dev">
+        <div className="flex flex-col items-center text-center mb-6 w-fit">
+          <Button asChild className="not-prose mb-6 flex w-fit">
+            <Link href="https://square.link/u/iDbd04PM" target="_blank">
               Get the Project <ArrowRight className="ml-2 w-4" />
             </Link>
           </Button>

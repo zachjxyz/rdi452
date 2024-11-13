@@ -79,7 +79,9 @@ const Nav = ({ className, children, id }: NavProps) => {
           <NavMenu />
           <ThemeToggle />
           <Button asChild className="hidden sm:flex">
-            <Link href="https://9d8.dev">Get Started</Link>
+            <Link href="https://square.link/u/iDbd04PM" target="_blank">
+              Get the Project
+            </Link>
           </Button>
           <MobileNav />
         </div>
