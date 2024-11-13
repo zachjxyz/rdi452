@@ -18,7 +18,7 @@ export default function Waitlist() {
       <Container>
         <div className="flex flex-col items-center text-center mb-6 w-fit">
           <Button asChild className="not-prose mb-6 flex w-fit">
-            <Link href="https://square.link/u/iDbd04PM" target="_blank">
+            <Link href="https://getwaitlist.com/waitlist/22187" target="_blank">
               Join the Waitlist <ArrowRight className="ml-2 w-4" />
             </Link>
           </Button>

@@ -43,7 +43,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Nav />
+          {/* Navigation */}
           {children}
         </ThemeProvider>
       </body>
@@ -76,7 +76,7 @@ const Nav = ({ className, children, id }: NavProps) => {
         </Link>
         {children}
         <div className="flex items-center gap-2">
-          <NavMenu />
+          {/* <NavMenu /> */}
           <ThemeToggle />
           <Button asChild className="hidden sm:flex">
             <Link href="https://square.link/u/iDbd04PM" target="_blank">
