@@ -9,7 +9,7 @@ import { NavMenu } from "@/components/nav/nav-menu";
 import { MobileNav } from "@/components/nav/mobile-nav";
 import { ThemeToggle } from "@/components/theme/theme-toggle";
 
-import Logo from "@/public/logo.svg";
+import Logo from "@/public/logo.png";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -43,7 +43,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Nav />
+          {/* <Nav /> */}
           {children}
         </ThemeProvider>
       </body>
