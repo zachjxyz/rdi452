@@ -67,8 +67,12 @@
 }
 
 @layer base {
-    :root {
-        color-scheme: dark;
+    * {
+        @apply border-border;
+    }
+
+    body {
+        @apply bg-background text-foreground;
     }
 }
 
@@ -91,4 +95,14 @@
         scrollbar-width: none;
         /* Firefox */
     }
+}
+
+@layer base {
+    :root {
+        color-scheme: dark;
+    }
+}
+
+html {
+    @apply dark;
 }
