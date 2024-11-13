@@ -18,15 +18,16 @@ import { Separator } from "@/components/ui/separator";
 // Define the menu items
 const mainMenu = {
   home: "/",
+  shop: "/shop",
+  blog: "/blog",
+  discord: "/discord",
   about: "/about",
-  contact: "/contact",
 };
 
-const contentMenu = {
-  blog: "/blog",
-  articles: "/articles",
-  tutorials: "/tutorials",
-};
+// const contentMenu = {
+//   blog: "/blog",
+//   contact: "/contact",
+// };
 
 export function MobileNav() {
   const [open, setOpen] = React.useState(false);
@@ -53,20 +54,19 @@ export function MobileNav() {
         </MobileLink>
         <ScrollArea className="my-4 h-[calc(100vh-8rem)] pb-10 pl-6">
           <div className="flex flex-col space-y-3">
-            <h3 className="text-small mt-6">Menu</h3>
             <Separator />
             {Object.entries(mainMenu).map(([key, href]) => (
               <MobileLink key={key} href={href} onOpenChange={setOpen}>
                 {key.charAt(0).toUpperCase() + key.slice(1)}
               </MobileLink>
             ))}
-            <h3 className="text-small pt-6">Blog Menu</h3>
+            {/* <h3 className="text-small pt-6">Extra</h3>
             <Separator />
             {Object.entries(contentMenu).map(([key, href]) => (
               <MobileLink key={key} href={href} onOpenChange={setOpen}>
                 {key.charAt(0).toUpperCase() + key.slice(1)}
               </MobileLink>
-            ))}
+            ))} */}
           </div>
         </ScrollArea>
       </SheetContent>

@@ -27,7 +27,7 @@ export default function Hero() {
               Get the Project <ArrowRight className="ml-2 w-4" />
             </Link>
           </Button>
-          <h1 className="!mb-0">
+          <h1 className="!mb-0 prose-strong">
             <Balancer>SACRIFICIAL LAMB</Balancer>
           </h1>
           <h3 className="text-muted-foreground">

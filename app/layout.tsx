@@ -9,7 +9,7 @@ import { NavMenu } from "@/components/nav/nav-menu";
 import { MobileNav } from "@/components/nav/mobile-nav";
 import { ThemeToggle } from "@/components/theme/theme-toggle";
 
-import Logo from "@/public/logo.png";
+import Logo from "@/public/logo.svg";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -43,7 +43,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {/* <Nav /> */}
+          <Nav />
           {children}
         </ThemeProvider>
       </body>
@@ -65,7 +65,7 @@ const Nav = ({ className, children, id }: NavProps) => {
           className="hover:opacity-75 transition-all flex gap-2 items-center"
           href="/"
         >
-          <h2 className="sr-only">Craft UI</h2>
+          <h2 className="sr-only">RDI</h2>
           <Image
             src={Logo}
             alt="Logo"
