@@ -19,9 +19,7 @@ import { Separator } from "@/components/ui/separator";
 const mainMenu = {
   home: "/",
   shop: "/shop",
-  blog: "/blog",
-  discord: "/discord",
-  about: "/about",
+  discord: "https://discord.gg/CqEgPapnuc",
 };
 
 // const contentMenu = {

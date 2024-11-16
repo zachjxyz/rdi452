@@ -71,7 +71,7 @@ export function NavMenu() {
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
-        <NavigationMenuItem>
+        {/* <NavigationMenuItem>
           <NavigationMenuTrigger>About</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid gap-3 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
@@ -93,17 +93,14 @@ export function NavMenu() {
                 </NavigationMenuLink>
               </li>
               <ListItem href="/about" title="History">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Read about the genesis of RDI
               </ListItem>
-              <ListItem href="/blog" title="Blog">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-              </ListItem>
-              <ListItem href="/gallery" title="Gallery">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              <ListItem href="#" title="Blog">
+                Check out my blog ... Updates coming soon.
               </ListItem>
             </ul>
           </NavigationMenuContent>
-        </NavigationMenuItem>
+        </NavigationMenuItem> */}
       </NavigationMenuList>
     </NavigationMenu>
   );

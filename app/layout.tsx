@@ -15,6 +15,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { cn } from "@/lib/utils";
+import Footer from "@/components/ui/footer";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -43,9 +44,10 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {/* Navigation */}
+          <Nav />
           {children}
         </ThemeProvider>
+        <Footer />
       </body>
     </html>
   );
@@ -76,7 +78,7 @@ const Nav = ({ className, children, id }: NavProps) => {
         </Link>
         {children}
         <div className="flex items-center gap-2">
-          {/* <NavMenu /> */}
+          <NavMenu />
           <ThemeToggle />
           <Button asChild className="hidden sm:flex">
             <Link href="https://square.link/u/iDbd04PM" target="_blank">
