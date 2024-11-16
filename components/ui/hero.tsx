@@ -10,24 +10,16 @@ import { Button } from "@/components/ui/button";
 import { Section, Container } from "@/components/craft";
 
 // Assets
-import Placeholder from "@/public/hero-image-2.jpg";
+import Placeholder from "@/public/sacrificial-lamb-album.png";
 
 export default function Waitlist() {
   return (
     <Section>
       <Container>
         <div className="flex flex-col items-center text-center mb-6 w-fit">
-          <Button asChild className="not-prose mb-6 flex w-fit">
-            <Link href="https://square.link/u/iDbd04PM" target="_blank">
-              Get the Project <ArrowRight className="ml-2 w-4" />
-            </Link>
-          </Button>
           <h1 className="!mb-0 prose-strong">
             <Balancer>SACRIFICIAL LAMB</Balancer>
           </h1>
-          <h3 className="text-muted-foreground">
-            <Balancer>NOVEMBER 16TH, 2024</Balancer>
-          </h3>
           <div className="my-8 h-96 w-full overflow-hidden rounded-lg border md:h-[480px] md:rounded-xl">
             <Image
               className="not-prose h-full w-full object-cover object-bottom"
@@ -38,6 +30,18 @@ export default function Waitlist() {
               placeholder="blur"
             />
           </div>
+          <Button asChild className="not-prose mb-6 flex w-fit">
+            <Link href="https://square.link/u/iDbd04PM" target="_blank">
+              Get the Project <ArrowRight className="ml-2 w-4" />
+            </Link>
+          </Button>
+          <Image
+            className="not-prose h-full w-full object-cover object-bottom"
+            src="/sacrificial-lamb-easy-instructions.gif"
+            width={960}
+            height={540}
+            alt="Download the Project"
+          />
         </div>
       </Container>
     </Section>

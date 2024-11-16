@@ -20,7 +20,7 @@ const FeatureOne = () => {
           />
         </div>
         <div className="flex flex-col gap-6 py-8">
-          <h3 className="!my-0">"Sacrificial Wolves" Hoodie</h3>
+          <h3 className="!my-0">Sacrificial Wolves Hoodie</h3>
           <p className="font-light leading-[1.4] opacity-70">
             This entire release is inspired to go directly to my fans and cut
             out the middle man. Purchase this hoodie!
