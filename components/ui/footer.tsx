@@ -37,17 +37,19 @@ export default function Footer() {
           </div> */}
         </Container>
         <Container className="not-prose flex flex-col justify-between gap-6 border-t md:flex-row md:items-center md:gap-2">
-          <div className="flex gap-2">
-            <Button variant="outline" size="icon">
-              <Instagram />
-            </Button>
+          {/* <div className="flex gap-2">
+            <Link href="https://instagram.com/nastb_" target="_blank">
+              <Button variant="outline" size="icon">
+                <Instagram />
+              </Button>
+            </Link>
             <Button variant="outline" size="icon">
               <Youtube />
             </Button>
             <Button variant="outline" size="icon">
               <AppleIcon />
             </Button>
-          </div>
+          </div> */}
           <p className="text-muted-foreground">
             © <a href="/">Real Deal Individual</a>. All rights reserved.
             2024-present.
