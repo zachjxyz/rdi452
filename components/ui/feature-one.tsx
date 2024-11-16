@@ -15,8 +15,8 @@ const FeatureOne = () => {
             src="/sacrificial-wolves.png"
             alt="Sacrificial Wolves Hoodie"
             className="fill object-cover"
-            width="1000"
-            height="1000"
+            width="1500"
+            height="1500"
           />
         </div>
         <div className="flex flex-col gap-6 py-8">

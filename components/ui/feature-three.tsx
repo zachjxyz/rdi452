@@ -15,8 +15,8 @@ const FeatureThree = () => {
             src="/walk-it-down-farm-tee-white.png"
             alt="Walk it Down T-Shirt"
             className="fill object-cover"
-            width="1000"
-            height="1000"
+            width="1500"
+            height="1500"
           />
         </div>
         <div className="flex flex-col gap-6 py-8">
