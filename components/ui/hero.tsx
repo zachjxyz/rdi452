@@ -41,6 +41,7 @@ export default function Waitlist() {
             width={960}
             height={540}
             alt="Download the Project"
+            unoptimized
           />
         </div>
       </Container>
